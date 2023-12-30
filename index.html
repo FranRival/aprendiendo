@@ -13,13 +13,36 @@
         jugador = prompt ("elige 1 piedra, 2 papel, 3 tijera")
 
        if(jugador ==1){
-        alert("Elegiste piedra")
+        alert("Elegiste 🗿")
        } else if(jugador ==2){
-        alert("Elegiste papel")
+        alert("Elegiste 🧻")
        } else if(jugador ==3){
-        alert("Elegiste tijera")
+        alert("Elegiste ✂️")
        }else{
         alert("Elegirste perder")
+       }
+
+       if(pc ==1){
+        alert("Pc elige 🗿")
+       } else if(jugador ==2){
+        alert("Pc elige 🧻")
+       } else if(jugador ==3){
+        alert("Pc elige ✂️")
+       }
+
+       //COMBATE
+       //encontrar todas las maneras en que se pueden ganar
+
+       if(jugador==pc){
+        alert("Empate")
+       } else if (jugador==1 & pc == 3){
+        alert("Ganaste")
+       } else if (jugador == 2 & pc == 1){
+        alert("Ganaste")
+       } else if (jugador == 3 & pc == 2){
+        alert("Ganaste")
+       }else {
+        alert ("Perdiste")
        }
             
     </script>
